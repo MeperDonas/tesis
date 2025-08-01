@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mepersoft inventory and bulling</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/inventory/">Inventario</a></li>
+        <li><a href="/billing/">Facturación</a></li>
+        <li><a href="/sign_up/">Registrarse</a></li>
+      </ul>
+    </nav>
+    {% block content %}
+    <h1>{{ message }}</h1>
+    {% endblock %}
+  </body>
+</html>
