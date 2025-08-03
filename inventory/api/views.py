@@ -1,8 +1,8 @@
 from rest_framework import viewsets
-from inventory.models import Product
+from inventory.models import product
 from inventory.api.serializers import ProductSerializer
 
 
 class ProductViewSet(viewsets.ModelViewSet):
-    queryset = Product.objects.all()
+    queryset = product.objects.all()
     serializer_class = ProductSerializer

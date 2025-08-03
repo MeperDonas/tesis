@@ -4,3 +4,5 @@ from inventory.api.views import ProductViewSet
 
 router = DefaultRouter()
 router.register(r'products', ProductViewSet)
+
+urlpatterns = router.urls
