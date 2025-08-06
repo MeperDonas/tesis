@@ -12,7 +12,8 @@ runserver:
 	@$(DC) run --rm --service-ports web \
 	python manage.py runserver 0.0.0.0:8000
 
-
+stop:
+	$(DC) stop
 
 up:
 	$(DC) up -d
