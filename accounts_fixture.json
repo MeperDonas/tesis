@@ -1,0 +1,46 @@
+[
+{
+  "model": "accounts.useremployee",
+  "pk": 1,
+  "fields": {
+    "username": "kevin123",
+    "email": "kevin123@gmail.com",
+    "phone_number": "+573163738979",
+    "password": "",
+    "first_name": "Kevin",
+    "last_name": "Oswaldo",
+    "address": null,
+    "date_joined": "2025-08-03T00:18:38.588Z"
+  }
+},
+{
+  "model": "accounts.usersupplier",
+  "pk": 1,
+  "fields": {
+    "username": "MultiPartes Santi",
+    "email": "santienrike16anime@gmail.com",
+    "phone_number": null,
+    "password": "",
+    "first_name": "Santiago",
+    "last_name": "Villabona",
+    "address": "calle 14 # 26-28 apt 303",
+    "date_joined": "2025-08-02T22:43:01.670Z",
+    "catalog": "supplier_catalogs/Laboratorio1_VillabonaSantiago.pdf"
+  }
+},
+{
+  "model": "accounts.usersupplier",
+  "pk": 2,
+  "fields": {
+    "username": "lucky",
+    "email": "lucky123@gmail.com",
+    "phone_number": "+573243456543",
+    "password": "lucky1",
+    "first_name": "lucky",
+    "last_name": "gordo",
+    "address": null,
+    "date_joined": "2025-08-04T04:55:55.325Z",
+    "catalog": ""
+  }
+}
+]
